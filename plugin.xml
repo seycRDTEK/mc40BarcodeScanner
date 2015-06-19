@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
+	id="cordova-plugin-mc40-barcode-scanner"
+	version="0.6.1">
+
+	<name>mc40BarcodeScanner</name>
+	<description>mc40 Barcode Scanner Plugin</description>
+	<license>EYC</license>
+	<keywords>barcodescanner</keywords>
+
+	<js-module src="www/mc40BarcodeScanner.js">
+		<clobbers target="plugins.mc40BarcodeScanner" />
+	</js-module>
+
+
+	<!-- android -->
+	<platform name="android">
+		<config-file target="res/xml/config.xml" parent="/*">
+			<feature name="mc40BarcodeScanner" >
+				<param name="android-package" value="com.eyc.plugins.MC40BarcodeScanner"/>
+			</feature>
+		</config-file>
+
+		<source-file src="src/android/MC40BarcodeScanner.java" target-dir="src/com/eyc/plugins/MC40BarcodeScanner" />
+	</platform>
+</plugin>

@@ -22,6 +22,7 @@
 			</feature>
 		</config-file>
 
-		<source-file src="src/android/MC40BarcodeScanner.java" target-dir="src/com/eyc/plugins/MC40BarcodeScanner" />
+		<source-file src="src/android/MC40BarcodeScanner.java" target-dir="src/com/eyc/plugins" />
+		<source-file src="src/android/MC40ScanReceiver.java" target-dir="src/com/eyc/plugins" />
 	</platform>
 </plugin>

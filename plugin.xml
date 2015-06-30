@@ -9,9 +9,9 @@
 	<license>EYC</license>
 	<keywords>barcodescanner</keywords>
 
-	<js-module src="www/mc40BarcodeScanner.js">
+	<!--<js-module src="www/mc40BarcodeScanner.js">
 		<clobbers target="plugins.mc40BarcodeScanner" />
-	</js-module>
+	</js-module>-->
 
 
 	<!-- android -->
